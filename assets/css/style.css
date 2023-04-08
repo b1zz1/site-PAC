@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/*Default*/
+body{
+    margin: 0;
+    background-color: rgb(27, 27, 27);
+    color: rgb(243, 235, 235);
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+/*Custom scrollbar start*/
+/* width */
+::-webkit-scrollbar {
+    width: 0.35em;
+} 
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(27, 27, 27);
+} 
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(243, 235, 235);
+    border-radius: 1px;
+    transition: 0.2s;
+} 
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(223, 215, 215);
+    transition: 0.2s;
+}
+/*Custom scrollbar end*/
+
+/*Page 1 start*/
+.main-page{
+    
+}
+
+/*header start*/
+.banner-catolica{
+    display: flex;
+    align-items: center;
+    margin: 0.5em;
+}
+
+#logo-catolica{
+    width: 3.4em;
+}
+
+#text-catolica{
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+}
+
+#glass-bg{
+    position: absolute;
+    top: 0;
+    background-color: rgba(39, 39, 39, 0.7);
+    width: 100vw;
+    height: 110vh;
+    z-index: -1;
+}
+
+#bg-video{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -2;
+}
+/*header end*/
+
+/*title start*/
+.main-title{
+    display: flex;
+    font-size: 8em;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#title-style{
+    font-weight: bold;
+    max-width: 10em;
+}
+/*title end*/
+
+/*nav start*/
+.button-box{
+    display: flex;
+    justify-content: space-around;
+    margin: auto 6.5em;
+}
+
+.nav-button{
+    width: 10em;
+    height: 2em;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 0.2s;
+}
+
+.nav-button:hover{
+    width: 10.5em;
+    height: 2.5em;
+    background-color: rgb(19, 19, 19);
+    color: rgb(243, 235, 235);
+    transition: 0.2s;
+    cursor: pointer;
+}
+/*nav end
+Page 1 start*/
+
+/*Page 2 start*/
+.info-page{
+    margin-top: 10%;
+    background-color: rgb(19, 19, 19);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.ip-content{
+
+}
+/*Concept start*/
+.conceito{
+
+}
+
+#ip-title{
+    font-size: 6em;
+}
+/*Page 2 end*/
