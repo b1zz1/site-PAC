@@ -10,3 +10,4 @@ Team Members:
 - Jeziel Nogueira
 - Gustavo Haiduk
 - Luiz Eduardo Uber
+- João Vitor da S. Bast (Github: Joaobast)
