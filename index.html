@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,79 +8,109 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Uso prático do seguidor</title>
 </head>
+
 <body>
-    <section class="main-page">
-        <header>
-            <div class="banner-catolica">
-                <img id="logo-catolica"src="assets/images/catolica-logo.png" alt="logo da católica">
-                <h3 id="text-catolica">Católica | SC</h3>
-            </div>
-            <div class="main-background">
-                <div id="glass-bg"></div>
-                <video autoplay muted loop id="bg-video">
-                <source src="assets/videos/follower-bg.mp4" type="video/mp4">
-            </div>
-        </header>
-        <div>
-            <div class="main-title">
-                <h1 id="title-style">USOS DO<br><em>SEGUIDOR DE LINHA</em></h1>
-            </div>
-            <nav>
-                <div class="button-box">
-                    <a href="#conceito-anchor"><button class="nav-button">Conceitos</button></a>
-                    <a href="#PID-anchor"><button class="nav-button">PID</button></a>
-                    <a href="#industria-anchor"><button class="nav-button">Indústria</button></a>
-                    <a href="#transporte-anchor"><button class="nav-button">Transporte</button></a>
-                    <a href="#domestico-anchor"><button class="nav-button">Doméstico</button></a>
-                    <a href="#acessibilidade-anchor"><button class="nav-button">Acessibilidade</button></a>
-                </div>
-            </nav>
+  <section class="main-page">
+    <header>
+        <div class="banner-catolica">
+          <img id="logo-catolica" src="assets/images/catolica-logo.png" alt="logo da católica">
+          <h3 id="text-catolica">Católica | SC</h3>
         </div>
-    </section>
-    <section class="info-page">
-        <div class="ip-content">
-            <div class="conceito" id="conceito-anchor">
-                <h2 class="ip-title">Conceito</h2>
-                <hr id="concept-outline">
-                <p class="ip-article">O seguidor de linha é um dispositivo eletrônico que, utilizando sensores e microcontroladores, é capaz de detectar uma linha e seguir seu trajeto de forma autônoma. Embora possa parecer um sistema simples, comumente utilizado em competições de robótica, seu princípio de orientação e contole é amplamente utilizado em aparelhos e sistemas que utilizamos em nosso dia a dia. Dentre suas aplicações, podemos citar desde robôs para limpeza doméstica, robôs autônomos nas áreas de armazenamento e logística, controle de velocidade do piloto automático de um carro e até direção automática em carros inteligentes atualmente estudados por empresas como Tesla e Google.</p>
-            </div>
-            <div class="PID" id="PID-anchor">
-                <h2 class="ip-title">PID</h2>
-                <hr id="PID-outline">
-                <p class="ip-article">O controle PID consiste em um algoritmo matemático, que tem por função o controle preciso de uma variável em um sistema, permitindo ao sistema operar de forma estável no ponto de ajuste desejado, mesmo que ocorram variações ou distúrbios que afetariam sua estabilidade. Sua aplicação pode ser encontrada em qualquer aplicação que necessite de controle de variáveis contínuas como: processos industriais de tratamento térmico, em que os fornos usam controladores PID, bem como no setor científico e de laboratório, onde precisão e confiabilidade são essenciais para a qualidade de uma aplicação de controle.</p>
-            </div>
-            <div class="PID" id="industria-anchor">
-                <h2 class="ip-title">Indústria</h2>
-                <hr id="PID-outline">
-                <p class="ip-article">A intralogistica em uma fabrica, tradicionalmente feita com empilhadeiras, guindastes ou pontes-rolantes,esta aos poucos sendo otimizada com robos moveis automatizados (AMR). Os robos seguidores de linha podem oferecer o maximo de eficacia no transporte de produtos e materiais dentro de uma fabrica, e a depender de seu algoritmo e sensores utilizados, esse robos sao capazes de seguir um trajeto pré determinado, desviar de obstaculos e até traçar novas rotas alternativas caso seu percurso esteja bloquedo.</p>
-            </div>
-            <div class="PID" id="transporte-anchor">
-                <h2 class="ip-title">Transporte</h2>
-                <hr id="PID-outline">
-                <p class="ip-article">De acordo com especialistas no assunto, ver carros sem motorista andando pelas ruas ainda levará uns bons anos para virar realidade, mas em ambientes mas em ambientes restritos a realidade já está mudando. Na Alemanha, a Mercedes-Benz e Bosch ja receberam a aprovaçao da Autoridade Federal de Transporte Motorizado da Alemanha (KBA), para o uso comercial de um sistema de estacionamento totalmente autônomo no aeroporto de Stuttgart. Todo processo é possível em função da interação entre a infraestrutura inteligente fornecida pela Bosch instalada no parque de estacionamento e a tecnologia da Mercedes-Benz. De acordo com as empresas, os sensores da Bosch na garagem monitoram o corredor e arredores, fornecendo as informações necessárias para guiar o veículo. A tecnologia do veículo converte as informações que recebe da infraestrutura em manobras efetivas. Dessa forma, os veículos podem até mesmo subir e descer rampas entre os andares do estacionamento. Se os sensores de infraestrutura detectarem um obstáculo, o veículo freia e para completamente com segurança. Somente quando a rota estiver livre, ele continua seu caminho.</p>
-            </div>
-            <div class="PID" id="domestico-anchor">
-                <h2 class="ip-title">Domicílio</h2>
-                <hr id="PID-outline">
-                <p class="ip-article">As opçoes ainda sao poucas, mas sem duvida, uma "mão na roda". Os robos aspiradoes de pó, sucesso desde meados de 2020, tem sido o sonho de consumo de muitas donas de casa. Orientando-se por sensores de obstaculos, os modelo mais basicos possuem um modo automatico de limpeza, alternando entre cantos, espiral, linha reta e zigue-zague, já os modelos avançados podem vir com sistemas de mapeamento avançado e até cameras, para "enxergar o ambiente", objetos deixados em seu caminho e saber onde já passou. Mais recentemente temos visto tambem o robo autonomo para limpeza de vidraças, que em modo autonomo, é capaz de definir sua rotan identificar locais onde ja passou e evitar a colisao com as bordas.</p>
-            </div>
-            <div class="PID" id="acessibilidade-anchor">
-                <h2 class="ip-title">Acessibilidade</h2>
-                <hr id="PID-outline">
-                <p class="ip-article">Os deficientes visuais podem usufruir de diversos sistemas de locomoção, no qualinteragem e auxiliam no seu dia a dia, os meios mais utilizados são a bengala, o cão guia e alguns sistemas de reconhecimento de voz. Mas isso ja começa a mudar, a startup brasileira Vixsystem desenvolveu um cão-guia robótico que pode melhorar a experiência desses indivíduos. Trata-se de Lysa, um robô que cumpre o papel de cão-guia, o robo tem uma tecnologia de “scanner”, que analisa o ambiente e entende como navegar por esse local. Previamente cadastrado os pontos de interesse daquele ambiente em um aplicativo que, acoplado no robô, o usuário pode escolher para onde quer ir. O robô fala quais são as opções e após a escolha do usuário, ele vai andando sozinho, desviando dos obstáculos detectados pelos sensores frontais, laterais e superiores. Assim, ele faz o caminho de forma segura para o usuário.</p>
-            </div>
+        <div class="main-background">
+          <div id="glass-bg"></div>
+          <video autoplay muted loop id="bg-video">
+            <source src="assets/videos/follower-bg.mp4" type="video/mp4">
         </div>
+    </header>
+    <div class="tito">
+      <div class="main-title">
+        <h1 id="title-style">USOS DO<br><em>SEGUIDOR DE LINHA</em></h1>
+      </div>
+    </div>
+    <div class="butt">
+        <nav>
+            <div class="button-box">
+              <a href="#conceito-anchor"><button class="nav-button">Conceito</button></a>
+              <a href="#PID-anchor"><button class="nav-button">PID</button></a>
+              <a href="#industria-anchor"><button class="nav-button">Indústria</button></a>
+              <a href="#transporte-anchor"><button class="nav-button">Transporte</button></a>
+              <a href="#domestico-anchor"><button class="nav-button">Doméstico</button></a>
+              <a href="#acessibilidade-anchor"><button class="nav-button">Acessibilidade</button></a>
+            </div>
+          </nav>
+    </div>
+  </section>
+  <section class="info-page">
+    <div class="content1" id="conceito-anchor">
+        <div class="text1">
+            <h2 class="ip-title1">Conceito</h2>
+            <p class="ip-article">O seguidor de linha é um dispositivo eletrônico que, utilizando sensores e
+                microcontroladores, é capaz de detectar uma linha e seguir seu trajeto de forma autônoma. Embora possa
+                parecer um sistema simples, comumente utilizado em competições de robótica, seu princípio de orientação e
+                contole é amplamente utilizado em aparelhos e sistemas que utilizamos em nosso dia a dia. Dentre suas
+                aplicações, podemos citar desde robôs para limpeza doméstica, robôs autônomos nas áreas de armazenamento e
+                logística, controle de velocidade do piloto automático de um carro e até direção automática em carros
+                inteligentes atualmente estudados por empresas como Tesla e Google.</p>
+        </div>
+        <div class="img-pos">
+            <img id="lf-gif" src="assets/images/line-follower.gif" alt="line follower gif">
+        </div>
+    </div>
+    <div class="content2" id="PID-anchor">
+        <div class="img-pos">
+            <img id="pid-gif" src="assets/images/PID-circuit.png" alt="line follower gif">
+        </div>
+        <div class="text2">
+            <h2 class="ip-title2">PID</h2>
+            <p class="ip-article">O seguidor de linha é um dispositivo eletrônico que utiliza sensores e microcontroladores para detectar uma linha e seguir seu trajeto de forma autônoma. Apesar de ser um sistema aparentemente simples, muito utilizado em competições de robótica, seu princípio de orientação e controle é amplamente aplicado em dispositivos e sistemas presentes em nosso cotidiano. Dentre suas diversas aplicações, podemos citar robôs para limpeza doméstica, robôs autônomos em áreas de armazenamento e logística, controle de velocidade do piloto automático em carros e até mesmo direção automática em veículos inteligentes, que atualmente são objeto de estudo de empresas como Tesla e Google.</p>
+        </div>
+    </div>
+    <div class="content1" id="industria-anchor">
+        <div class="text1">
+            <h2 class="ip-title1">Indústria</h2>
+            <p class="ip-article">A intralogística em uma fábrica, tradicionalmente realizada por meio de empilhadeiras, guindastes ou pontes-rolantes, está aos poucos sendo otimizada com robôs móveis automatizados (AMR). Esses robôs seguidores de linha podem oferecer o máximo de eficácia no transporte de produtos e materiais dentro de uma fábrica. Dependendo do algoritmo e dos sensores utilizados, esses robôs são capazes de seguir um trajeto pré-determinado, desviar de obstáculos e até mesmo traçar novas rotas alternativas caso seu percurso esteja bloqueado. Com esses robôs, a intralogística torna-se mais ágil, eficiente e segura, além de permitir uma melhor utilização do espaço físico da fábrica.</p>
+        </div>
+        <div class="img-pos">
+            <img id="lf-gif" src="assets/images/robo anda.jpeg" alt="Indústria">
+        </div>
+    </div>
+    <div class="content2" id="transporte-anchor">
+      <div class="img-pos">
+        <img id="lf-gif" src="assets/images/automated-car.png" alt="line follower gif">
+      </div>
+        <div class="text2">
+            <h2 class="ip-title2">Transporte</h2>
+            <p class="ip-article">De acordo com especialistas no assunto, ainda levará alguns anos para vermos carros sem motorista andando pelas ruas, mas em ambientes restritos a realidade já está mudando. Na Alemanha, a Mercedes-Benz e a Bosch receberam a aprovação da Autoridade Federal de Transporte Motorizado da Alemanha (KBA) para o uso comercial de um sistema de estacionamento totalmente autônomo no aeroporto de Stuttgart. Todo o processo é possível graças à interação entre a infraestrutura inteligente fornecida pela Bosch, instalada no parque de estacionamento, e a tecnologia da Mercedes-Benz. Segundo as empresas, os sensores da Bosch na garagem monitoram o corredor e os arredores, fornecendo as informações necessárias para guiar o veículo. A tecnologia do veículo converte as informações que recebe da infraestrutura em manobras efetivas. Dessa forma, os veículos podem até mesmo subir e descer rampas entre os andares do estacionamento. Se os sensores de infraestrutura detectarem um obstáculo, o veículo freia e para completamente com segurança. Somente quando a rota estiver livre, ele continua seu caminho. Embora ainda haja um longo caminho a percorrer até que essa tecnologia se torne comum nas ruas, é um grande avanço que pode trazer muitos benefícios, como maior segurança no trânsito e redução de congestionamentos. A parceria entre a Mercedes-Benz e a Bosch é um excelente exemplo de como a colaboração entre empresas pode acelerar a implementação de tecnologias disruptivas.</p>
+        </div>
+    </div>
+    <div class="content1" id="domestico-anchor">
+        <div class="text1">
+            <h2 class="ip-title1">Domicílio</h2>
+            <p class="ip-article">Embora as opções ainda sejam limitadas, não há dúvida de que os robôs aspiradores de pó são uma verdadeira "mão na roda". Desde meados de 2020, eles têm sido o sonho de consumo de muitas donas de casa. Orientados por sensores de obstáculos, os modelos mais básicos possuem um modo de limpeza automático que alterna entre cantos, espiral, linha reta e zigue-zague. Já os modelos avançados podem vir equipados com sistemas de mapeamento avançado e até câmeras para "enxergar" o ambiente, identificar objetos em seu caminho e saber onde já passaram. Mais recentemente, temos visto também robôs autônomos para a limpeza de vidraças. Em modo autônomo, esses robôs são capazes de definir sua rota, identificar locais onde já passaram e evitar colisões com as bordas. É uma tecnologia muito interessante que está mudando a forma como lidamos com a limpeza da casa, tornando-a mais eficiente e conveniente.</p>
+        </div>
+        <div class="img-pos">
+            <img id="lf-gif" src="assets/images/aspirador.png" alt="line follower gif">
+        </div>
+    </div>
+    <div class="content2" id="acessibilidade-anchor">
+      <div class="img-pos">
+        <img id="lf-gif" src="assets/images/sego.png" alt="line follower gif">
+      </div>
+        <div class="text2">
+            <h2 class="ip-title2">Acessibilidade</h2>
+            <p class="ip-article">Os indivíduos com deficiência visual têm à sua disposição diversos sistemas de locomoção que interagem e auxiliam nas suas atividades diárias, incluindo a bengala, o cão-guia e alguns sistemas de reconhecimento de voz. No entanto, há uma mudança em curso. A startup brasileira Vixsystem criou um cão-guia robótico chamado Lysa, que pode aprimorar a experiência dessas pessoas. Lysa é um robô com tecnologia de "scanner" que analisa o ambiente e entende como se locomover por ele. Os pontos de interesse daquele ambiente são previamente cadastrados em um aplicativo que, acoplado ao robô, permite que o usuário escolha para onde ir. O robô indica as opções disponíveis e, após a escolha do usuário, segue em frente, desviando de obstáculos detectados pelos seus sensores frontais, laterais e superiores, garantindo a segurança do usuário ao longo do percurso. Em resumo, Lysa é uma tecnologia inovadora que pode aprimorar significativamente a qualidade de vida das pessoas com deficiência visual, permitindo que elas se movam com segurança e autonomia em ambientes desconhecidos.</p>
+        </div>
+    </div>
+  </section>
+  <footer>
+    <section class="footer">
+      <div class="lmao">
+        <h2>BASTES | BIZZI | HAIDUK | LENCKULH | NOGUEIRA | STORK</h2>
+      </div>
+      <div class="xd">
+        <h2>© 2023 NENHUM DIREITO RESERVADO XD</h2>
+        <h2><a id=github href="https://github.com/b1zz1/site-PAC.git" </a>GITHUB</h2>
+      </div>
     </section>
-    <footer>
-        <section class="footer">
-            <div class="lmao">
-                <h2>BASTES | BIZZI | HAIDUK | LENCKULH | NOGUEIRA | STORK</h2>
-            </div>
-            <div class="xd">
-                    <h2>© 2023 NENHUM DIREITO RESERVADO XD</h2>
-                    <h2><a href="https://github.com/b1zz1/site-PAC%22%3EGITHUB"</a>github</h2>
-            </div>
-        </section>
-    </footer>
+  </footer>
 </body>
-</html>
