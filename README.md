@@ -1,10 +1,10 @@
 # site-PAC
-Website created for a college group work, explaining about the practical uses of the line follower robots in our society.
+Site explicando o conceito do seguidor de linha criado por um grupo da faculdade como junção das disciplinas UI/UX e PAC.
 
-Team leader:
+Líder:
 - Eduardo Bizzi (Github: b1zz1)
 
-Team Members:
+Membros:
 - Ana Paula Lenckulh (Github: ALenckulh)
 - Addison Gabriel 
 - Jeziel Nogueira
